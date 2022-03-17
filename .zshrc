@@ -28,6 +28,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 export TERM="xterm-color"
+export PATH=/opt/homebrew/bin:$PATH
 
 
 # Basic git commands
@@ -60,3 +61,5 @@ function gcf() {
     git diff --name-only --relative HEAD "HEAD~$SINCE";
 }
 
+
+alias cat='bat'
